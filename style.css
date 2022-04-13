@@ -1,0 +1,157 @@
+html {
+    font-size: 18px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: ,9;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hat {
+    display: flex;
+    position: fixed;
+    background: black;
+    width: 100%;
+    height: 69px;
+    z-index: 2;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hat img {
+    display: flex;
+    position: relative;
+    padding-top: 9px;
+    padding-left: 10px;
+    height: 50px;
+    width: 167px;
+}
+
+.nav li {
+    display: inline;
+    text-decoration: underline;
+    margin: auto 10px;
+}
+
+.hero {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 700px;
+    
+}
+
+.header {
+   background-color: black;
+   width: 100%;
+   padding: 3px 0px;
+   line-height: 2.25em;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+#prodtext {
+    line-height: 2.25em;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container img {
+    height: 200px;
+    width: 300px;
+    margin: 10px 15px;
+}
+
+figcaption {
+    margin-bottom: 20px;
+}
+
+.locations {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1200px;
+    margin-top: 50px;
+    margin-bottom: 0%;
+    flex-wrap: wrap;
+}
+
+.adresses {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.adresses ul {
+    background-color: black;
+    opacity: 1;
+    line-height: 3em;
+    margin: 15px 40px;
+    width: 300px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    top: 0px;
+}
+
+.contact h5{
+    line-height: 1em;
+}
+
+footer h5{
+    text-align: left;
+    margin: 30px 20px;
+}
